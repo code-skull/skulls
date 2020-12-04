@@ -1,11 +1,11 @@
 # Task: Find a random item in an `Array`
 
-## Big words
+## Terminology
 - Primitive value types: Number, Array 
 - Terminology: random, integer, array item
 
 ## Prerequisites
-1. `myArray`: an `Array` of items:
+`myArray`: an `Array` of items:
 
     ```js
     const myArray = ['one', 'two', 'three'];
@@ -13,7 +13,7 @@
 
     Or replace this with one of your own or one from another exercise.
 
-## TLDR; Optomized Solution
+## TLDR; Optimized Solution
 
 ```js
 const myItem = myArray[Math.floor(Math.random() * myArray.length)];
@@ -60,7 +60,7 @@ const myItem = myArray[lowInteger];
     const myItem = myArray[lowInteger];
     ```
 
-## Optomized Solution
+## Optimized Solution
 
 ```js
 const myItem = myArray[Math.floor(Math.random() * myArray.length)];
